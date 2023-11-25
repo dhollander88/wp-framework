@@ -1,0 +1,140 @@
+// Text
+$font-primary: 'Outfit', sans-serif;
+
+// Text modular scale
+$text-xs: 0.75rem;
+$text-sm: 0.875rem;
+$text-md: 1rem;
+$text-lg: 1.25em;
+$text-xl: 1.875rem;
+$text-xxl: 3rem;
+
+// Text fluid scale
+$text-fluid-xs: clamp(0.625rem, 0.135vw + 0.598rem, 0.75rem);
+$text-fluid-sm: clamp(0.75rem, 0.135vw + 0.723rem, 0.875rem);
+$text-fluid-md: clamp(0.875rem, 0.135vw + 0.848rem, 1rem);
+$text-fluid-lg: clamp(1.125rem, 0.135vw + 1.098rem, 1.25rem);
+$text-fluid-xl: clamp(1.5rem, 0.405vw + 1.419rem, 1.875rem);
+$text-fluid-xxl: clamp(2rem, 0.541vw + 1.892rem, 2.5rem);
+
+// Heading modular scale
+$heading-xs: 1rem;
+$heading-sm: 1.5rem;
+$heading-md: 2rem;
+$heading-lg: 3rem;
+$heading-xl: 4rem;
+$heading-xxl: 6rem;
+
+// Heading fluid scale
+$heading-fluid-xs: clamp(0.8rem, 0.216vw + 0.757rem, 1rem);
+$heading-fluid-sm: clamp(1rem, 0.541vw + 0.892rem, 1.5rem);
+$heading-fluid-md: clamp(1.5rem, 0.541vw + 1.392rem, 2rem);
+$heading-fluid-lg: clamp(1.75rem, 0.811vw + 1.588rem, 2.5rem);
+$heading-fluid-xl: clamp(2.5rem, 1.351vw + 2.23rem, 3.75rem);
+$heading-fluid-xxl: clamp(2.75rem, 2.703vw + 2.209rem, 5.25rem);
+
+// Font families
+
+// Font weights
+$weight-light: 300;
+$weight-regular: 400;
+$weight-medium: 500;
+$weight-semibold: 600;
+$weight-bold: 700;
+$weight-extrabold: 800;
+$weight-black: 900;
+
+// Line height
+$line-none: 1;
+$line-xs: 1.25;
+$line-sm: 1.275;
+$line-md: 1.45;
+$line-lg: 1.625;
+$line-xl: 2;
+
+// letter spacing
+$letter-xs: -0.05em;
+$letter-sm: -0.025em;
+$letter-none: 0;
+$letter-lg: 0.025em;
+$letter-xl: 0.05em;
+$letter-xxl: 0.075em;
+
+// Prose width
+$prose-xs: 45ch;
+$prose-sm: 55ch;
+$prose-md: 65ch;
+$prose-lg: 75ch;
+$prose-xl: 85ch;
+
+// Convert SCSS variables to CSS custom properties
+:root {
+    // Text
+    --font-primary: 'Outfit', sans-serif;
+
+    // Text modular scale
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-md: 1rem;
+    --text-lg: 1.25em;
+    --text-xl: 1.875rem;
+    --text-xxl: 3rem;
+      
+    // Text fluid scale
+    --text-fluid-xs: clamp(0.625rem, 0.135vw + 0.598rem, 0.75rem);
+    --text-fluid-sm: clamp(0.75rem, 0.135vw + 0.723rem, 0.875rem);
+    --text-fluid-md: clamp(0.875rem, 0.135vw + 0.848rem, 1rem);
+    --text-fluid-lg: clamp(1.125rem, 0.135vw + 1.098rem, 1.25rem);
+    --text-fluid-xl: clamp(1.5rem, 0.405vw + 1.419rem, 1.875rem);
+    --text-fluid-xxl: clamp(2rem, 0.541vw + 1.892rem, 2.5rem);
+  
+    // Heading modular scale
+    --heading-xs: 1rem;
+    --heading-sm: 1.5rem;
+    --heading-md: 2rem;
+    --heading-lg: 3rem;
+    --heading-xl: 4rem;
+    --heading-xxl: 6rem;
+
+    // Heading fluid scale
+    --heading-fluid-xs: clamp(0.8rem, 0.216vw + 0.757rem, 1rem);
+    --heading-fluid-sm: clamp(1rem, 0.541vw + 0.892rem, 1.5rem);
+    --heading-fluid-md: clamp(1.5rem, 0.541vw + 1.392rem, 2rem);
+    --heading-fluid-lg: clamp(1.75rem, 0.811vw + 1.588rem, 2.5rem);
+    --heading-fluid-xl: clamp(2.5rem, 1.351vw + 2.23rem, 3.75rem);
+    --heading-fluid-xxl: clamp(2.75rem, 2.703vw + 2.209rem, 5.25rem);
+
+    // Font families
+  
+    // Font weights
+    --weight-light: 300;
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+    --weight-extrabold: 800;
+    --weight-black: 900;
+  
+    // Line height
+    --line-none: 1;
+    --line-xs: 1.25;
+    --line-sm: 1.275;
+    --line-md: 1.5;
+    --line-lg: 1.625;
+    --line-xl: 2;
+  
+    // letter spacing
+    --letter-xs: -0.05em;
+    --letter-sm: -0.025em;
+    --letter-none: 0;
+    --letter-lg: 0.025em;
+    --letter-xl: 0.05em;
+    --letter-xxl: 0.075em;
+  
+    // Prose width 
+    --prose-xs: 45ch;
+    --prose-sm: 55ch;
+    --prose-md: 65ch;
+    --prose-lg: 75ch;
+    --prose-xl: 85ch;
+}

@@ -1,0 +1,109 @@
+// Layout
+
+// spacing scale - padding and margin
+$spacing-none: 0rem;
+$spacing-xs:1rem;
+$spacing-sm:2rem;
+$spacing-md:3rem;
+$spacing-lg:4rem;
+$spacing-xl:5rem;
+
+// spacing scale fluid - padding and margin
+$spacing-fluid-xs:clamp(0.8rem, 0.135vw + 0.757rem, 1rem);
+$spacing-fluid-sm:clamp(1.5rem, 0.338vw + 1.392rem, 2rem);
+$spacing-fluid-md:clamp(2rem, 0.676vw + 1.784rem, 3rem);
+$spacing-fluid-lg:clamp(2.5rem, 1.337vw + 1.861rem, 4rem);
+$spacing-fluid-xl:clamp(3rem, 1.783vw + 2.148rem, 5rem);
+
+// Container widths 
+$width-xs: 40rem;
+$width-sm: 48rem;
+$width-md: 64rem;
+$width-lg: 80rem;
+$width-xl: 90rem;
+
+// Border radius
+$radius-xs: 0.25rem;
+$radius-sm: 0.50rem;
+$radius-md: 0.75rem;
+$radius-lg: 1rem;
+$radius-xl: 1.5rem;
+$radius-100: 100%;
+
+// Shadow 
+$shadow-xs: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+$shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+// Blur 
+$blur-xs: blur(4px);
+$blur-sm: blur(8px);
+$blur-md: blur(16px);
+$blur-lg: blur(24px);
+$blur-xl: blur(40px);
+
+// Layers
+$layer-below: -1;
+$layer-1:10;
+$layer-2:20;
+$layer-3:30;
+$layer-4:40;
+$layer-5:50;
+$layer-top:2147483647;
+
+// Convert SCSS variables to CSS custom properties
+:root{
+    // spacing scale
+    --spacing-none:0rem;
+    --spacing-xs:1rem;
+    --spacing-sm:2rem;  
+    --spacing-md:3rem;
+    --spacing-lg:4rem;
+    --spacing-xl:5rem;
+
+
+    // spacing scale fluid
+    --spacing-fluid-xs:clamp(0.8rem, 0.135vw + 0.757rem, 1rem);
+    --spacing-fluid-sm:clamp(1.5rem, 0.338vw + 1.392rem, 2rem);
+    --spacing-fluid-md:clamp(2rem, 0.676vw + 1.784rem, 3rem);
+    --spacing-fluid-lg:clamp(2.5rem, 1.337vw + 1.861rem, 4rem);
+    --spacing-fluid-xl:clamp(3rem, 1.783vw + 2.148rem, 5rem);
+    
+    // Container widths
+    --width-xs: 40rem;
+    --width-sm: 48rem;
+    --width-md: 64rem;
+    --width-lg: 80rem;
+    --width-xl: 90rem;
+  
+    // Border radius
+    --radius-xs: 0.25rem;
+    --radius-sm: 0.50rem;
+    --radius-md: 0.75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.5rem;
+    --radius-100: 100%;
+  
+    // Shadow 
+    --shadow-xs: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  
+    // Blur
+    --blur-xs: blur(4px);
+    --blur-sm: blur(8px);
+    --blur-md: blur(16px);
+    --blur-lg: blur(24px);
+    --blur-xl: blur(40px);
+  
+    // Layers
+    --layer-below: -1;
+    --layer-1: 10;
+    --layer-2: 20;
+    --layer-3: 30;
+    --layer-4: 40;
+}

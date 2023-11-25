@@ -1,0 +1,53 @@
+// Typography 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Base font family for heading
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-primary);
+    line-height: var(--line-md);
+}
+/* Variations */
+h1 {
+	font-size: var(--heading-fluid-xxl);
+	line-height: var(--line-sm);
+}
+h2 {
+	font-size: var(--heading-fluid-lg);
+	line-height: var(--line-sm);
+}
+h3 {
+	font-size: var(--heading-fluid-md);
+	line-height: var(--line-sm);
+}
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+
+}
+
+// Base font family for heading and link
+p{
+	font-family: var(--font-primary);
+}
+.brxe-text-link{
+	font-family: var(--font-primary);
+}	
+a {
+	font-family: var(--font-primary);
+	color: var(--primary-base);
+	&:hover{
+
+	}
+	&.active{
+
+	}
+  }

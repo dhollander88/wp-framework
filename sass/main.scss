@@ -1,0 +1,22 @@
+// 1. Variables
+@import '01variables/_colors';
+@import '01variables/_layout';
+@import '01variables/_interactions';
+@import '01variables/_text';
+
+// 2. Base
+@import '02base/_animations';
+@import '02base/_typography';
+@import '02base/_reset';
+
+// 3. Components
+@import '03components/_buttons';
+@import '03components/_card';
+@import '03components/_form';
+@import '03components/_slider';
+
+// 4. Layout
+@import '04layout/_footer';
+@import '04layout/_grid';
+@import '04layout/_header';
+@import '04layout/_sections';

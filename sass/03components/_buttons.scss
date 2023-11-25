@@ -1,0 +1,47 @@
+// Buttons
+.btn{
+        font-weight:600;
+        padding: var(--spacing-fluid-xs) var(--spacing-fluid-md);
+        border-radius: var(--radius-xs);
+
+    &.primary{
+        background: var(--primary-base);    
+        color: var(--white);
+        &:hover{
+            background: var(--primary-dark);
+        }
+    }
+
+    &.secondary{
+        background: var(--primary-light);    
+        color: var(--white);
+        &:hover{
+            background: var(--primary-base);
+        }
+    }
+
+    &.outline{
+        background: transparent;
+        border: 1px solid var(--primary-base);
+        color: var(--base);
+        &:hover{
+            background: var(--primary-light);
+            border:1px solid var(--primary-light);
+            color: var(--white);
+        }
+    }
+    &.black{
+        background: var(--black);
+        border: 1px solid var(--black);    
+        color: var(--white);
+        &:hover{
+            background: transparent;
+            border: 1px solid var(--black);
+            color: var(--black);
+        }
+    }
+}
+// Media Queries
+@media only screen and (max-width:768px) {
+
+}

@@ -1,0 +1,79 @@
+// Colors
+
+// Primary
+$primary-ultralight: #C4DAFC;
+$primary-light: #76A8F9;
+$primary-base: #317DF6;
+$primary-dark: #196EF5;
+$primary-ultradark: #084CBA; 
+
+// Secondary//
+$secondary-ultralight: #CCCCCC;
+$secondary-light: #7D7D7D;
+$secondary-base: #171717 ;
+$secondary-dark: #1A1A1A;
+$secondary-ultradark: #000;
+
+// Text
+$text-light: #879196;
+$text-base: #14141B;
+$text-dark: #14141B;
+
+// Heading
+$heading-light: #879196;
+$heading-base: #171717;
+$heading-dark: #14141B;
+
+// General
+$background-color: #ffffff;
+$border-color: #E5E7EB;
+$white: #fff;
+$black: #000;
+$success-color: #00C851;
+$danger-color: #FF4444;
+$warning-color: #FFBB33;
+$info-color: #34B5E5;
+
+// Greyscale
+$grey-light: #E8EAED;
+$grey-base: #D4D7DD;
+$grey-dark: #BDC2CB;
+
+
+// Convert SCSS variables to CSS custom properties
+
+:root {
+  --primary-ultralight: #C4DAFC;
+  --primary-light: #76A8F9;
+  --primary-base: #317DF6;
+  --primary-dark: #196EF5;
+  --primary-ultradark: #084CBA;
+
+  --secondary-ultralight: #CCCCCC;
+  --secondary-light: #7D7D7D ;
+  --secondary-base: #171717;
+  --secondary-dark: #1A1A1A;
+  --secondary-ultradark: #000;
+
+  --text-light: #879196;
+  --text-base: #171717;
+  --text-dark: #14141B;
+
+  --heading-light: #879196;
+  --heading-base: #14141B;
+  --heading-dark: #14141B;
+
+  --background-color: #fff;
+  --border-color: #E5E7EB;
+  --white: #fff;
+  --black: #000;
+  --success-color: #00C851;
+  --danger-color:#FF4444;
+  --warning-color:#FFBB33;
+  --info-color:#34B5E5;
+
+  --grey-light: #E8EAED;
+  --grey-base: #D4D7DD;
+  --grey-dark: #BDC2CB;
+
+}
