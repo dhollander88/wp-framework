@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
-  --primary-ultralight: #C4DAFC;
-  --primary-light: #76A8F9;
-  --primary-base: #317DF6;
-  --primary-dark: #196EF5;
-  --primary-ultradark: #084CBA;
+  --primary-ultralight: #ADB2DC;
+  --primary-light: #5A65B9;
+  --primary-base: #414C9A;
+  --primary-dark: #333C7A;
+  --primary-ultradark: #1A1E3D;
   --secondary-ultralight: #CCCCCC;
   --secondary-light: #7D7D7D ;
   --secondary-base: #171717;
