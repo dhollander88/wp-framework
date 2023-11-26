@@ -16,7 +16,7 @@
   --heading-light: #879196;
   --heading-base: #14141B;
   --heading-dark: #14141B;
-  --background-color: #fff;
+  --background-color: #F9F9F9;
   --border-color: #E5E7EB;
   --white: #fff;
   --black: #000;
@@ -168,6 +168,7 @@ html {
 body {
   font-size: 1rem;
   text-rendering: optimizeSpeed;
+  background: var(--background-color);
 }
 
 *,
@@ -231,6 +232,7 @@ select {
   font-weight: 600;
   padding: var(--spacing-fluid-xs) var(--spacing-fluid-md);
   border-radius: var(--radius-xs);
+  cursor: pointer;
 }
 .btn.primary {
   background: var(--primary-base);
@@ -240,11 +242,11 @@ select {
   background: var(--primary-dark);
 }
 .btn.secondary {
-  background: var(--primary-light);
+  background: var(--primary-ultralight);
   color: var(--white);
 }
 .btn.secondary:hover {
-  background: var(--primary-base);
+  background: var(--primary-light);
 }
 .btn.outline {
   background: transparent;

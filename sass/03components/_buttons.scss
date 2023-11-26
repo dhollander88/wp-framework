@@ -3,6 +3,7 @@
         font-weight:600;
         padding: var(--spacing-fluid-xs) var(--spacing-fluid-md);
         border-radius: var(--radius-xs);
+        cursor:pointer;
 
     &.primary{
         background: var(--primary-base);    
@@ -13,10 +14,10 @@
     }
 
     &.secondary{
-        background: var(--primary-light);    
+        background: var(--primary-ultralight);    
         color: var(--white);
         &:hover{
-            background: var(--primary-base);
+            background: var(--primary-light);
         }
     }
 
